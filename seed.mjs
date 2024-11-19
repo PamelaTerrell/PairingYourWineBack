@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import Pairing from './models/Pairing.mjs';  // Import the Pairing model
+import Pairing from './models/Pairing.mjs'; 
 
 const seedDatabase = async () => {
   const pairings = [
@@ -12,7 +12,7 @@ const seedDatabase = async () => {
   ];
 
   try {
-    await Pairing.deleteMany({});  // Clear existing pairings
+    await Pairing.deleteMany({}); 
     await Pairing.insertMany(pairings);  // Insert initial pairings
     console.log('Database seeded successfully!');
   } catch (err) {

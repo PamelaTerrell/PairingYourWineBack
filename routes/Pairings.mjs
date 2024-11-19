@@ -1,5 +1,5 @@
 import express from 'express';
-import Pairing from '../models/Pairing.mjs'; // Ensure the correct path to your model
+import Pairing from '../models/Pairing.mjs';
 
 const router = express.Router();
 
