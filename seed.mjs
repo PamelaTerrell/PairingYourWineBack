@@ -9,6 +9,7 @@ const seedDatabase = async () => {
     { wine: 'Sauvignon Blanc', dish: 'Cheese' },
     { wine: 'Pinot Grigio', dish: 'Pasta' },
     { wine: 'Albariño', dish: 'Seafood' },
+    { wine: 'Chardonnay', dish: 'lobster' },
   ];
 
   try {
